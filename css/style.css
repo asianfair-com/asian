@@ -518,7 +518,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#intro h1 span {
+/* #intro h1 span {
+  color: #f82249;
+} */
+#intro .asian {
   color: #f82249;
 }
 
@@ -910,7 +913,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/venue-gallery/1.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1572,6 +1575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #intro {
     background-attachment: fixed;
   }
+  
 
   #about {
     background-attachment: fixed;
@@ -1661,4 +1665,49 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+  /* span.number-th {
+    font-size: 31px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-transform: none;
+    position: absolute;
+    margin: 26px 0 0 -110px;
+} */
+}
+
+sup.th {
+  font-size: 15px;
+}
+span.asian {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+span.number-th {
+  font-size: 31px;
+  color: white;
+  font-family: serif;
+  font-style: italic;
+  text-transform: none;
+  /* position: absolute;
+  margin: 54px 0 0 -110px; */
+}
+
+/* MEMORABLE MOMENTS */
+.col-2.moments {
+  background-color: green;
+  text-align: center;
+  color: blanchedalmond;
+  font-size:30px;
+  border: dotted;
+  box-shadow: 1px 1px 1px 3px #625050a8;
+}
+.col-2.momentsTitle {
+  text-align: center;
+  padding: 6px;
+  position: relative;
+}
+.col-1.dot {
+  font-size: xxx-large;
 }
